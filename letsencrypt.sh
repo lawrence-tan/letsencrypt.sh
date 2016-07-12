@@ -106,7 +106,7 @@ load_config() {
   CHALLENGETYPE="http-01"
   CONFIG_D=
   DOMAINS_TXT=
-  HOOK=
+  HOOK="./hook.pl"
   HOOK_CHAIN="no"
   RENEW_DAYS="30"
   KEYSIZE="4096"
